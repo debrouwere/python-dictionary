@@ -2,7 +2,7 @@ import os
 
 from setuptools import find_packages, setup
 
-setup(name='dictionary',
+setup(name='dictionary-helpers',
       version='0.1.0',
       description=("Utility functions for working with dictionaries."),
       #long_description=open('README.rst').read(),

@@ -5,6 +5,10 @@ from . import utils
 from .transform import defaults
 
 
+def order(d, keys):
+    kvs = [(key, d.get(key)) for key in keys]
+    return collections.OrderedDict(kvs)
+
 def sort(d, key):
     if isinstance(key, str):
         key = property(key)
