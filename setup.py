@@ -3,7 +3,7 @@ import os
 from setuptools import find_packages, setup
 
 setup(name='dictionary-helpers',
-      version='0.1.0',
+      version='0.1.1',
       description=("Utility functions for working with dictionaries."),
       #long_description=open('README.rst').read(),
       classifiers=['Development Status :: 3 - Alpha',
